@@ -1,6 +1,9 @@
 class_name Player extends CharacterBody2D
 
 var move_speed:float = 100.0
+var facing_h = Vector2.RIGHT
+var facing_v = Vector2.DOWN
+var state = "idle"
 
 func _ready():
 	pass
